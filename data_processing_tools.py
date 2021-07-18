@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv('Data.csv')
+dataset = pd.read_csv('Data files/Data.csv')
 x = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 
